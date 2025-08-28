@@ -10,5 +10,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/hair-scope-lab-entry/", // 👈 Important for GitHub Pages
+  base: "", // 👈 Important for GitHub Pages
 });
