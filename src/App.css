@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #254942, #dddfe5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+  display: flex;
+  background: #fff;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(234, 229, 229, 0.889);
+  width: 900px;
+  max-width: 95%;
+}
+
+/* Left Panel with Image */
+.left-panel {
+  flex: 1;
+  background: #f0f0f0;
+}
+
+.course-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right Panel */
+.right-panel {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+}
+
+.right-panel h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Circle Animation */
+.circle-placeholder {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  transition: transform 0.5s ease;
+}
+
+.circle-animate {
+  transform: scale(1.4) rotate(360deg);
+}
+
+/* Input */
+input {
+  padding: 12px;
+  margin-bottom: 20px;
+  width: 80%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: rgb(231, 236, 227);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Error message */
+.error-msg {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Lab Page Styling */
+.lab-container {
+  background: #e4dfdf;
+  border-radius: 50px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(174, 170, 170, 0.3);
+}
+
+.lab-container h1 {
+  color: #000;
+  /* Black color */
+}
+
+.lab-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.lab-logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.timer {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.exit-btn {
+  background: #ff6b6b;
+}
+
